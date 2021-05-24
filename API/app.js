@@ -4,8 +4,6 @@ const https = require("https")
 const fs = require("fs")
 const port = 8000
 
-// caso eu precise: http://localhost/Learning/read
-
 app.get('/', (req, res) => {
     var conteudo = '';
     var usuario = "takenet";
